@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25)
 
-project(KAlg LANGUAGE C)
+project(KAlg C)
 
 add_library(KAlg
 	include/kalg/btree.h src/btree.c
